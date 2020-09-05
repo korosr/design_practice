@@ -1,0 +1,242 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 14px;
+}
+
+body {
+    letter-spacing: 1.8px;
+    color: #333;
+    font-family:"Font Awesome 5 Free","Font Awesome 5 Brands";
+}
+
+img {
+    vertical-align: middle;
+}
+
+.gf{
+    font-family: 'Quicksand','Noto Sans Japanese', sans-serif;
+}
+
+.row-eq-height{
+    flex-wrap: wrap;
+}
+
+.fadein{
+    opacity: 0;
+    transform: translateY(7px)/*スクロールアップする距離*/;
+    transition: all 2s/*処理にかかる時間*/;
+}
+.fadein.done{
+    opacity : 1; 
+    transform : translate(0, 0);
+}
+
+/* ヘッダー */
+header{
+    text-align: center;
+}
+
+#site-title{
+    font-size: 2em;
+    margin: 50px;
+}
+#site-title span{
+    color: #9ACC1F;
+}
+
+/* main */
+#main-wrapper .card-main{
+    margin: 0 0 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 360px;
+}
+
+.card-main .card-body{
+    position: relative;
+}
+
+.card-main .card-text{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#image-icon p{
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #9ACC1E;
+    font-size: .7em;
+    padding: 5px;
+    width: 30%;
+}
+
+/* side */
+#side-wrapper .card-side{
+    margin-bottom: 30px;
+}
+
+#side-wrapper .profile{
+    width: 40%;
+    margin: 20px auto;
+}
+
+#side-wrapper .name span{
+    font-size: 0.5em;
+    color:lightgray;
+}
+
+#side-wrapper .card-footer{
+    background-color: #9ACC1E;
+}
+
+.card-title{
+    font-size: 1.2em;
+}
+
+.click-dawnload-btn{
+    background-color: #e22255;
+    border: double;
+}
+
+.click-dawnload-btn:hover{
+    background-color: #E9567D;
+    border: double;
+    opacity: .8;
+}
+
+.click-profile-btn{
+    background-color: #AAAAAA;
+    border: double;
+}
+
+.click-profile-btn:hover{
+    background-color: #AAAAAA;
+    border: double;
+    opacity: .8;
+}
+
+#dropdown1{
+    width: 350px;
+}
+
+.tag{
+    font-size: .7em;
+    background-color: #EEEEEE;
+    margin: 3px;
+    padding: 2px;
+    display: inline-flex;
+}
+
+.tag::before{
+    font-size: .7em;
+    content: "\f02b";
+    font-weight: 600;
+    margin: 2px;    
+}
+
+
+#form{
+    position:relative;
+    width:100%;	
+    margin-bottom:20px;
+}
+
+#sbox{
+    height:30px;
+    padding:0 10px; 
+    position:absolute;
+    border: 1px solid #ddd;
+    border-radius:20px;
+    outline:0;
+    width: 100%;	
+}
+  
+#sbtn{
+    height:30px;
+    position:absolute; 
+    right:5%;/*アイコン左右の位置調整*/
+    top:0;
+    background:none;
+    color:#ccc;
+    border:none;
+    font-size:20px;/*アイコンサイズ*/
+}
+    
+#sbtn:hover{
+    color:#7fbfff;
+}
+
+#dropdown1{
+    width: 100%;
+}
+
+/* footer */
+footer{
+    background-color: #393542;
+    color: #fff;
+}
+
+.f-list{
+    list-style: none;
+    font-size: .8em;
+}
+
+.f-title span{
+    border-left: 3px solid #9ACC1E;
+}
+
+.f-list li::before{
+    content: "\f531\0020";
+    font-weight: 600;
+    font-size: .8em;
+}
+
+#f-tag .tag{
+    background-color: #777;
+}
+
+#f-logo{
+    width: 50%;
+}
+
+#copyright{
+    font-size: .8em;
+}
+
+@media screen and (max-width:768px) {
+/* footer */
+.f-list li::before{
+    content: "\f138\0020";
+    font-weight: 600;
+    font-size: .8em;
+}
+
+#f-logo{
+    width: 30%;
+}
+
+.f-title span{
+    border-left: none;
+}
+
+#footer-line{
+    border-top: 2px solid #9ACC1E;
+}
+
+#footer-line2{
+    border-top: 1px solid #FFF;
+}
+
+.f-list{
+    padding-bottom: 10px;
+}
+
+}

@@ -5,7 +5,7 @@ $(function(){
     });
 });
 
-//ふわっとロード(menu以外)
+//ふわっとロード
 function load_effect(){
     var tt = $(window).scrollTop();
     var hh = $(window).height();

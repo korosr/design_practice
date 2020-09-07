@@ -56,6 +56,17 @@ header{
     padding-left: 5px;
     padding-right: 5px;
     height: 360px;
+    
+}
+
+#main-wrapper .card{
+    /* box-shadow: 0 0 3px 0 rgba(0,0,0,.12), 0 2px 3px 0 rgba(0,0,0,.22); */
+	transition: .3s;
+}
+
+#main-wrapper .card:hover{
+    box-shadow: 0 15px 30px -5px rgba(0,0,0,.15);
+	transform: translateY(-4px);
 }
 
 .card-main .card-body{

@@ -351,6 +351,7 @@ header {
 
 .circle-wrapper {
   margin: auto 140px;
+  display: flex;
 }
 
 .learn-circle {
@@ -386,7 +387,7 @@ header {
 .merit{
     background-color: #FEF5E0;
     text-align: center;
-    height: 1000px;
+    height: 1050px;
 }
 
 .merit-title{
@@ -427,12 +428,12 @@ header {
 }
 
 .merit-pictures{
+    display: flex;
     padding: 30px 30px;
 }
 
 .merit-picture{
-    float: left;
-    width: 350px;
+    width: 320px;
     padding: 40px 25px 20px;
     text-align: left;
 }
@@ -449,12 +450,11 @@ header {
 }
 
 .merit-more{
-    clear: left;
     border: 1px solid #ebb94d;
     background-color: #fff;
     padding: 30px;
     width: 85%;
-    margin: 40px auto;
+    margin: 5px auto 40px;
     font-weight: 600;
 }
 

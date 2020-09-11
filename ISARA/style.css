@@ -257,12 +257,12 @@ header {
 }
 
 .about-iconwrapper {
+  display: flex;
   width: 70%;
   margin: auto auto;
 }
 
 .about-icon {
-  float: left;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -300,6 +300,7 @@ header {
 }
 
 .boxwrapper {
+  display: flex;
   margin: 40px 70px;
 }
 
